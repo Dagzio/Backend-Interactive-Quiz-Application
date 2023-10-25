@@ -4,10 +4,10 @@ const multer = require("multer");
 require("dotenv").config();
 
 
-const {ClOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET } = process.env
+const {CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET } = process.env
           
 cloudinary.config({
-  cloud_name: ClOUD_NAME,
+  cloud_name: CLOUD_NAME,
   api_key: CLOUDINARY_API_KEY,
   api_secret: CLOUDINARY_API_SECRET
 });
