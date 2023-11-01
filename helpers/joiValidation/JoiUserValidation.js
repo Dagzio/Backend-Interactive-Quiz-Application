@@ -35,9 +35,6 @@ const userInfoValidation = Joi.object({
   name: Joi.string().min(3),
   email: Joi.string().pattern(EMAIL_REGEX),
   phone: Joi.string(),
-  birthday: Joi.date()
-    .min("01-01-1930")
-    .max(new Date()),
   skype: Joi.string().min(3).max(20),
   avatarUrl: Joi.string(),
 });

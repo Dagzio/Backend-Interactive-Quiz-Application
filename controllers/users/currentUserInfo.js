@@ -4,7 +4,6 @@ module.exports = async (req, res) => {
     name,
     email,
     phone,
-    birthday,
     skype,
     avatarUrl,
   } = req.user;
@@ -16,6 +15,5 @@ module.exports = async (req, res) => {
     phone,
     skype,
     name,
-    birthday,
   });
 };

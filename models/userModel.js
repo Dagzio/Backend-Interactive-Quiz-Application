@@ -20,10 +20,6 @@ const userSchema = new Schema(
       type: String,
       default: "",
     },
-    birthday: {
-      type: Date,
-      default: "",
-    },
     skype: {
       type: String,
       default: "",

@@ -15,7 +15,6 @@ module.exports = async (req, res) => {
     name,
     email,
     phone,
-    birthday,
     skype,
     avatarUrl,
   });
@@ -25,7 +24,6 @@ module.exports = async (req, res) => {
       name,
       email,
       phone,
-      birthday,
       skype,
       avatarUrl,
     },
